@@ -39,3 +39,12 @@ print_my_details("Amrit", 31, "Bagga")
 # print using keyword args
 print_my_details(age=30, name="Monty")
 
+# infinite arguments
+# *(asterik) denotes  array of all passed arguments
+def print_people(*people):
+    for person in people:
+        print("This person is :", person)
+
+print_people("Monty", "Amrit", "Honey")
+
+
