@@ -58,4 +58,31 @@ math2 = do_math(11, 33)
 print("First sum is :", math1, "and second sum is :", math2)
 
 
+# conditional statements
 
+#check = False
+check = "hello"
+if(check == True):
+    print("It is true")
+elif check == "hello":
+    print("hello greetings..!!")
+elif check == "hii":
+    print("hii greetings..!!")
+else:
+    print("It is false")
+
+myNumbers = [1, 3, 4, 5]
+
+for item in myNumbers:
+    print(item)
+
+# print from 1 to 20 using while
+idx = 0
+run = True
+
+while run:
+    if idx == 21:
+        run = False
+    else:
+        print(idx)
+        idx += 1
