@@ -41,6 +41,20 @@ print(mydict["name"])
 print(mydict["age"])
 print(mydict["hobbies"])
 
+# variables
+abc = 555
+mystr4 = "hello world"
+print(mystr4 + str(abc))
+greeting = mystr4.split(" ")[0] + " Monty"
+print(greeting)
+
+number = 1
+secondNumber = 2
+print(number * secondNumber * secondNumber * number)
+
+check = True
+print(check)
+
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
