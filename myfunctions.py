@@ -28,4 +28,14 @@ def my_function(str1, str2, str3):
 
 my_function(5555, 66, "this is arg3")
 
+#separated print stmt using comma
+def print_my_details(name, age, lastName="Singh"):
+    print("My name is :", name, lastName, "and age is :", age)
+
+print_my_details("Amrit", 31)
+print_my_details("Amrit", 31, "Bagga")
+
+
+# print using keyword args
+print_my_details(age=30, name="Monty")
 
