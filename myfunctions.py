@@ -48,3 +48,14 @@ def print_people(*people):
 print_people("Monty", "Amrit", "Honey")
 
 
+# return value from function
+def do_math(num1, num2):
+    return num1 + num2
+
+math1 = do_math(4, 5)
+math2 = do_math(11, 33)
+
+print("First sum is :", math1, "and second sum is :", math2)
+
+
+
