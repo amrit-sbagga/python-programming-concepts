@@ -90,7 +90,10 @@ enemy2.getHp()
 '''
 
 # single line using '#' comment
-# oem comment
+# some comment
 
+#usage of module
+from classes.enemy import MyEnemy
 
-
+enemy3 = MyEnemy(200, 60)
+print("HP: enemy3=", enemy3.get_hp())
