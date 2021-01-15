@@ -86,3 +86,20 @@ while run:
     else:
         print(idx)
         idx += 1
+
+# importing regex libraries
+mystr5 = "'I AM NOT YELLING', she said. Though we know it to be not true."
+import re
+# sub params - match, replace on string
+newMyStr5 = re.sub('[A-Z]', '', mystr5) # replace caps with empty
+print(newMyStr5)
+newMyStr6 = re.sub('[a-z]', '', mystr5) # replace small letters with empty
+print(newMyStr6)
+
+newMyStr6 = re.sub('[.,\'A-Z+" "]', '', mystr5) # replace special char, space and small letters
+print(newMyStr6)
+
+mystr5 = mystr5 + "44 298 - 345"
+print(mystr5)
+newMyStr6 = re.sub('[^0-9]', '', mystr5) #replace all which are not numbers with nothing
+print(newMyStr6) #44298345
