@@ -83,5 +83,14 @@ enemy2 = Enemy(110, 190)
 enemy2.getAtk()
 enemy2.getHp()
 
+#multiple line comments using 3 quotes
+'''
+ program: python advance concepts
+ Author: amrit
+'''
+
+# single line using '#' comment
+# oem comment
+
 
 
