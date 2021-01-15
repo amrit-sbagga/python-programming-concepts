@@ -50,9 +50,30 @@ while playerhp > 0:
         print("You have low health...!!")
 
     # usage of continue
-    if playerhp > 30:
-        continue
+    #if playerhp > 30:
+        #continue
 
+
+# use of class
+class Enemy:
+
+    #usage of instance variable
+    def __init__(self, atkl, atkh):
+        self.atkl = atkl
+        self.atkh = atkh
+
+    #atkl = 60
+    #atkh = 80
+
+    #self is entire obj instantiate for this class like 'this'
+    def getAtk(self):
+        print(self.atkl)
+
+enemy1 = Enemy(100, 200)
+enemy1.getAtk()
+
+enemy2 = Enemy(110, 190)
+enemy2.getAtk()
 
 
 
