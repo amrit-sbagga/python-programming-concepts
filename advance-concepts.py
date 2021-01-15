@@ -57,6 +57,9 @@ while playerhp > 0:
 # use of class
 class Enemy:
 
+    #usage of class variable
+    hp = 200
+
     #usage of instance variable
     def __init__(self, atkl, atkh):
         self.atkl = atkl
@@ -69,11 +72,16 @@ class Enemy:
     def getAtk(self):
         print(self.atkl)
 
+    def getHp(self):
+        print("Hp is:", self.hp)
+
 enemy1 = Enemy(100, 200)
 enemy1.getAtk()
+enemy1.getHp()
 
 enemy2 = Enemy(110, 190)
 enemy2.getAtk()
+enemy2.getHp()
 
 
 
